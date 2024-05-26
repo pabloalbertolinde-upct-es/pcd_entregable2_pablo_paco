@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="13.3">
+  <help_text/>
+  <zoom_level>12</zoom_level>
+  <element>
+    <id>UMLActor</id>
+    <coordinates>
+      <x>48</x>
+      <y>288</y>
+      <w>72</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>Sensor</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>588</x>
+      <y>108</y>
+      <w>444</w>
+      <h>444</h>
+    </coordinates>
+    <panel_attributes>Programa
+-
+
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLUseCase</id>
+    <coordinates>
+      <x>624</x>
+      <y>216</y>
+      <w>372</w>
+      <h>48</h>
+    </coordinates>
+    <panel_attributes>comprueba si la temperatura es alta</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLUseCase</id>
+    <coordinates>
+      <x>624</x>
+      <y>312</y>
+      <w>372</w>
+      <h>108</h>
+    </coordinates>
+    <panel_attributes>Analiza los datos estadisticamente</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>108</x>
+      <y>312</y>
+      <w>504</w>
+      <h>48</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+mide una temperatura</panel_attributes>
+    <additional_attributes>400.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1020</x>
+      <y>312</y>
+      <w>360</w>
+      <h>48</h>
+    </coordinates>
+    <panel_attributes>Notifica cuando es necesario
+lt=&lt;-</panel_attributes>
+    <additional_attributes>280.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLActor</id>
+    <coordinates>
+      <x>1356</x>
+      <y>288</y>
+      <w>72</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>Cliente</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
